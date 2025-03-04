@@ -19,9 +19,9 @@ services:
     image: mysql
     container_name: mysql_database
     environment:
-      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: dockerDB
-      MYSQL_USER: root
+      MYSQL_USER: gonzaq
       MYSQL_PASSWORD: 12345
     ports:
       - "3307:3306"
